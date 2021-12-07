@@ -49,8 +49,8 @@ function draw(){
   
   parede2 = createSprite(1200,500,10,100); 
   
-fantasma.setCollider("rectangle",0,0,200,250,0);
- fantasma.debug=true;
+fantasma.setCollider("rectangle",-10,10,150,220,0);
+ fantasma.debug=false;
  
  parede1.debug=false;
 
@@ -102,7 +102,7 @@ if(frameCount % 60 === 0){
 
    porta1.scale = 1.0;
    porta1.lifetime = 400;
-   porta1.debug = true;
+   porta1.debug = false;
 
    grupoDeBlocoInvisivel.add(porta1);
   } 
